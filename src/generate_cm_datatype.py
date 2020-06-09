@@ -3,11 +3,12 @@
 import json
 import os
 import shutil
+import sys
 
 with open('config.json') as config_file:
     config = json.load(config_file)
 
-input_csv = "/output_network/out_connMatdf.csv"
+input_csv =  str(sys.argv[1]) #"/output_network/out_connMatdf.csv"
 
 #parse key file
 catalog = dict()
