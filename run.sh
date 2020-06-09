@@ -62,7 +62,7 @@ fi
 ###############################################################################
 # generate cm
 
-cmd="${py_bin} ${EXEDIR}/src/generate_cm_datatype.py"
+cmd="${py_bin} ${EXEDIR}/src/generate_cm_datatype.py ${inOUTBASE}/output_network/out_connMatdf.csv"
 echo $cmd
 eval $cmd
 
