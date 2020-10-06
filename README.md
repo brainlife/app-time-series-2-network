@@ -1,5 +1,5 @@
 [![Abcdspec-compliant](https://img.shields.io/badge/ABCD_Spec-v1.1-green.svg)](https://github.com/brain-life/abcd-spec)
-[![Run on Brainlife.io](https://img.shields.io/badge/Brainlife-brainlife.app.385-blue.svg)](https://doi.org/https://doi.org/10.25663/brainlife.app.385)
+[![Run on Brainlife.io](https://img.shields.io/badge/Brainlife-brainlife.app.372-blue.svg)](https://doi.org/10.25663/brainlife.app.372)
 
 # app-time-series-2-network
 Converts an NxT time series to an NxN functional connectivity matrix
