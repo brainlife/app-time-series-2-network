@@ -36,7 +36,7 @@ Avesani, P., McPherson, B., Hayashi, S. et al. The open diffusion data derivativ
 }
 ```
 
-The `timeseries` provided is the most important file. This is an `h5` file that can be made with the bold-2-timeseries app: https://doi.org/10.25663/brainlife.app.369
+The `timeseries` provided is the most important file. This is an `h5` file that can be made with the bold-2-timeseries app: https://doi.org/10.25663/brainlife.app.369. The `discard` option is for the number of frames at the beginning of the bold.nii.gz to cutoff. The `similaritmeas` is the similarity measure type, which can be `correlation`, `partialcorrelation`, or `covariance`. Mainly, you'll want to use simple `correlation`.
 
 3. Launch the App by executing `main`
 
@@ -46,7 +46,7 @@ The `timeseries` provided is the most important file. This is an `h5` file that 
 
 ## Output
 
-All output files will be generated under the current working directory (pwd), in directories called `output_network`. Specifically, a conmat object will be made, which will contain a csv of the desired connectivity matrix. 
+All output files will be generated under the current working directory (pwd), in directories called `output_network`. Specifically, a conmat datatype object will be made, which will contain a csv of the desired connectivity matrix. 
 
 ### Dependencies
 
