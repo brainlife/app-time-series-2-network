@@ -2,7 +2,7 @@
 [![Run on Brainlife.io](https://img.shields.io/badge/Brainlife-brainlife.app.372-blue.svg)](https://doi.org/10.25663/brainlife.app.372)
 
 # app-time-series-2-network
-Converts an NxT time series to an NxN functional connectivity matrix
+Converts an NxT time series to an NxN functional connectivity matrix, where N is the number of nodes and T is the number of time points. Such a functional connectivity matrix can be submitted to functional brain network analyses. 
 
 ### Authors 
 
@@ -36,6 +36,8 @@ Avesani, P., McPherson, B., Hayashi, S. et al. The open diffusion data derivativ
 }
 ```
 
+The `timeseries` provided is the most important file. This is an `h5` file that can be made with the bold-2-timeseries app: https://doi.org/10.25663/brainlife.app.369
+
 3. Launch the App by executing `main`
 
 ```bash
@@ -44,7 +46,7 @@ Avesani, P., McPherson, B., Hayashi, S. et al. The open diffusion data derivativ
 
 ## Output
 
-All output files will be generated under the current working directory (pwd), in directories called `output_network`.
+All output files will be generated under the current working directory (pwd), in directories called `output_network`. Specifically, a conmat object will be made, which will contain a csv of the desired connectivity matrix. 
 
 ### Dependencies
 
